@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "liveprofiler",
+	"version": "1.0.0",
+	"name": "LiveProfiler",
+	"description": "Real-time in-game performance profiler.",
+	"authors": ["mesren2"],
+	"contact": {
+		"homepage": "https://github.com/mesren2/liveprofiler"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"client": ["net.mesren2.liveprofiler.LiveProfilerClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"fabric": "*",
+		"minecraft": "1.21.5"
+	}
+}
